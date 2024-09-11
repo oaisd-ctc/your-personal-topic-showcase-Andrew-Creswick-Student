@@ -12,6 +12,34 @@ nav {
     width: 10%;
     text-align: center;
 }
+footer {
+    margin: auto;
+    width: 100px;
+    height: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.page2OL{
+    margin:auto;
+    width: 25%;
+    height: 30%;
+    background-color: limegreen;
+}
+.page2UL {
+    margin:auto;
+    width: 25%;
+    height: 30%;
+    background-color: white;
+}
+#page2OLCat {
+    color: red;
+}
 #all {
     background-image: url(../images/background-image.jpg);
     background-repeat: no-repeat;

@@ -1,0 +1,51 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 100px;
+    padding: 10px;
+    margin: auto;
+    width: 75%;
+}
+nav {
+    margin: auto;
+    width: 10%;
+    text-align: center;
+}
+#all {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#enjoyP {
+    margin: auto;
+    border: 10px;
+    padding: 5px;
+    background-color:pink;
+}
+#Para1 {
+    background-color: green;
+    color: red;
+    margin: auto;
+    width: 50%;
+    height: 125px;
+}
+#Para2 {
+    background-color: blue;
+    color: yellow;
+}
+#index {
+    color: blue;
+    background-color: yellow;
+}
+#credits {
+    color: red;
+    background-color: black;
+}
+#page2 {
+    color: white;
+    background-color: black;
+}
+#helloMount {
+    color:white;
+}

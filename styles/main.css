@@ -7,6 +7,7 @@ header {
     margin: auto;
     width: 75%;
 }
+
 nav {
     margin: auto;
     width: 10%;
@@ -18,6 +19,11 @@ footer {
     height: auto;
     background-color: black;
     color: white;
+    text-align: center;
+}
+aside {
+    color: white;
+    margin: auto;
     text-align: center;
 }
 .flex-container {
@@ -44,6 +50,7 @@ footer {
     background-image: url(../images/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
 }
 #enjoyP {
     margin: auto;
@@ -52,7 +59,7 @@ footer {
     background-color:pink;
 }
 #Para1 {
-    background-color: green;
+    background-color: lightgreen;
     color: red;
     margin: auto;
     width: 50%;
@@ -76,4 +83,7 @@ footer {
 }
 #helloMount {
     color:white;
+}
+#steveEye{
+    font-style:italic;
 }

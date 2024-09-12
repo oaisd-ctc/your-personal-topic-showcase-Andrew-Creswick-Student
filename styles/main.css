@@ -10,14 +10,14 @@ header {
 main {
     background-image: url(../images/background-image.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     opacity: 0.9;
     transition-duration: 0.7;
 }
 main:hover {
     background-image: url(../images/background-image-edited.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 nav {
@@ -54,6 +54,13 @@ aside {
     width: 25%;
     height: 30%;
     background-color: white;
+    opacity: 1;
+    transition-duration: 0.9;
+}
+.page2UL:hover{
+    background-color:green;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: white;
 }
 #page2OLCat {
     color: red;

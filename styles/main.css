@@ -7,7 +7,19 @@ header {
     margin: auto;
     width: 75%;
 }
-
+main {
+    background-image: url(../images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    transition-duration: 0.8;
+}
+main:hover {
+    background-image: url(../images/background-image-edited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 nav {
     margin: auto;
     width: 10%;
@@ -51,6 +63,13 @@ aside {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
+    transition-duration: 0.8;
+}
+#all:hover {
+    background-image: url(../images/background-image-edited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #enjoyP {
     margin: auto;

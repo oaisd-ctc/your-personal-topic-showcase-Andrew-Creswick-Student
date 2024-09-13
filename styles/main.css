@@ -17,7 +17,6 @@ main:hover {
     background-image: url(../images/background-image-edited.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 nav {
     margin: auto;
@@ -36,6 +35,14 @@ aside {
     color: white;
     margin: auto;
     text-align: center;
+
+}
+.liHover {
+    color: black;
+    
+}
+.liHover:hover{
+    color:white;
 }
 .flex-container {
     display: flex;
@@ -73,7 +80,6 @@ aside {
     background-image: url(../images/background-image-edited.png);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #enjoyP {
     margin: auto;

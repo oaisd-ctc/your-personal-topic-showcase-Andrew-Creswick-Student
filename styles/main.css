@@ -52,8 +52,9 @@ aside {
 .page2OL{
     margin:auto;
     width: 25%;
-    height: 30%;
+    height: 35%;
     background-color: limegreen;
+    line-height:1.1;
 }
 .page2UL {
     margin:auto;

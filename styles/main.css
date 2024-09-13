@@ -12,7 +12,6 @@ main {
     background-repeat: no-repeat;
     background-size: 100%;
     opacity: 0.9;
-    transition-duration: 0.7;
 }
 main:hover {
     background-image: url(../images/background-image-edited.png);
@@ -55,7 +54,6 @@ aside {
     height: 30%;
     background-color: white;
     opacity: 1;
-    transition-duration: 0.9;
 }
 .page2UL:hover{
     background-color:green;
@@ -70,7 +68,6 @@ aside {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
-    transition-duration: 0.7;
 }
 #all:hover {
     background-image: url(../images/background-image-edited.png);

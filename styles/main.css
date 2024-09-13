@@ -62,6 +62,7 @@ aside {
     height: 30%;
     background-color: white;
     opacity: 1;
+    border-radius:1;
 }
 .page2UL:hover{
     background-color:green;
